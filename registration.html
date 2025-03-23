@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html land="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <label for="Name">Fullname:</label>
+        <input type="text" id="name" name="name" placeholder="Enter full name"required><br><br>
+<!--email field-->
+<label for="email">Your Email:</label>
+<input type="text" id="email" name="email" placeholder="Enter your email address"required><br><br>
+<!--password field-->
+<label for="password">Password:</label>
+<input type="password" id="password" name="password" placeholder="Enter password"required><br><br>
+<!--date of birth field-->
+<label for="DOB">Date of Birth:</label>
+<input type="date"id= "DOB" name="DOB" placeholder="Date of Birth"required><br><br>
+<!--gender dropdown-->
+<label for="gender">Gender:</label>
+<select id="gender" name="gender"required>
+    <option value="">select gender</option>
+    <option value="male">Male</option>
+    <option value="Female">Female</option>
+</select><br><br>
+<!--Membership type using radio buttons-->
+<label>Membership type:</label> 
+<input type="radio" id="basic" name="membership" value="basic"required>
+<label for="basic">Basic</label>
+<input type="radio" id="premium" name="membership" value="premium">
+<label for="premium">Premium</label><br><br>
+<!--Submit button-->
+<button type="submit">Register</button>
+    </body>
+</html>
